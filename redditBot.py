@@ -45,11 +45,12 @@ def post_to_subreddit(subreddit_name, title, body):
 
 subreddits = ['PRIZEPICKSBESTPICK', 'OptionsOnly', 
                'StonkTraders', 'EliteTraders',
-               'UltimateTraders', 'Stocks_Picks' , 
-                 'BreakoutStocks' , 'squeeze_stocks' ,
-                   'PrizePicksDemonTime' , 'PrizePicksPlays' , 'BettingPicks' , 'SportsBettingPicks',
-                   'TheBettingGuru' , 'SportsBettingExperts', 'FanduelBettingLocks', 
-                   ]
+               'UltimateTraders', 'BreakoutStocks' , 'squeeze_stocks' ,
+                'PrizePicksDemonTime' , 'PrizePicksPlays' , 'BettingPicks' , 'SportsBettingPicks',
+                'TheBettingGuru' , 'SportsBettingExperts', 'FanduelBettingLocks', 'FanduelBettingLocks'
+                , 'fanduel_sportsbook' , 'GamblingGurus', 'OnlineCasinoGambling' , 'GamblingBros'
+                , 'sportsgambling'
+            ]
 base_title = "FREE PLACE TO WIN AND EAT!💸💸💸💸💸"
 base_body = """
 Hello everyone, 
