@@ -59,14 +59,14 @@ subreddits = ['BreakoutStocks' , 'squeeze_stocks' ,
            'SHIBArmy','CryptoApeing'   
 ]
 #'SweepSlotsCasino', 'PRIZEPICKSBESTPICK','OnlineSlotCasinos','UltimateTraders',
-base_title = ["FREE PLACE TO WIN AND EAT!💸💸💸💸💸" , "Join Our Community for Expert Tips on Betting, Trading, and Crypto",
-              "Unlock the Secrets to Successful Trading and Betting with Us!", "Your Hub for PrizePicks, Trading Strategies, and Crypto Insights",
-              "Sports Betting, Trading, and Crypto: Join Our Free Discussion!", "Maximize Your Gains: From Options Trading to Meme Coins to Sports Betting",
-               "Discover Winning Strategies in Betting, Trading, and Crypto", "Community Insights on PrizePicks, Options, and Crypto Trends", 
-                "From Sports Bets to Crypto Gains: Join the Discussion","All-in-One Community for Trading, Betting, and Crypto Enthusiasts"  ]
+base_title = ["FREE PLACE TO WIN AND EAT!💸💸💸💸💸" , "🤑🤑Join Our Community for Expert Tips on Betting, Trading, and Crypto💸💰💰💸",
+              "🤑🤑Unlock the Secrets to Successful Trading and Betting with Us!💰💰💰", "🏦Your Hub for PrizePicks, Trading Strategies, and Crypto Insights🏦",
+              "🏦Sports Betting, Trading, and Crypto: Join Our Free Discussion!🏦", "🏦Maximize Your Gains: From Options Trading to Meme Coins to Sports Betting🏦",
+               "Discover Winning Strategies in Betting, Trading, and Crypto🏧🏧🏧", "Community Insights on PrizePicks, Options, and Crypto Trends📈📈📈", 
+                "From Sports Bets to Crypto Gains: Join the Discussion📊📊📊","All-in-One Community for Trading, Betting, and Crypto Enthusiasts🧑‍🔬🧑‍🔬🧑‍🔬"  ]
 base_body = [ 
 
-"""Hello everyone,
+"""Hello everyone🤑,
 
 Join our FREE and amazing server to discuss betting, gambling, and becoming rich! 
 
@@ -74,13 +74,13 @@ We offer top stock picks, the best options trading plays, PrizePicks locks, and 
 
 Join us on Discord: TdEyQqwxp2. Everything is free - Join the community today!""",
 
-"""Discover the best tips for betting, trading, and growing your wealth in our FREE server! 
+"""Discover the best tips for betting, trading, and growing your wealth in our FREE server! 🏦
 
 We provide top stock picks, options trading plays, PrizePicks locks, and meme coin advice. 
 
 Join our community on Discord: TdEyQqwxp2. Everything is free - Join now!""",
 
-"""Unlock your potential and join our FREE server to master betting, trading, and wealth-building strategies!
+"""Unlock your potential and join our FREE server to master betting, trading, and wealth-building strategies!🏦
 
  Gain exclusive access to top stock picks, winning options plays, PrizePicks locks, and opportunities to hit big on meme coins. 
  
@@ -90,7 +90,7 @@ Join our community on Discord: TdEyQqwxp2. Everything is free - Join now!""",
 
  """Hey there,
 
-Transform your financial future by joining our FREE server! 
+Transform your financial future by joining our FREE server! 🏦
 
 
 Discover the best betting tips, profitable trading strategies, and insights on PrizePicks and meme coins. 
@@ -99,7 +99,7 @@ Elevate your game and connect with like-minded individuals.
 
 Don't wait to join us now on Discord: TdEyQqwxp2 Start your journey to wealth today!""",
 
-"""Seize the opportunity to grow your wealth with our FREE server! 
+"""Seize the opportunity to grow your wealth with our FREE server! 🏦
 
 
 Get exclusive top stock picks, powerful options trading strategies, unbeatable PrizePicks locks, and the latest on meme coins. 
@@ -108,7 +108,7 @@ Don't wait - join our vibrant community on Discord: TdEyQqwxp2.
 
  Your path to financial freedom starts here!""",
 
- """Elevate your betting and trading skills by joining our FREE and dynamic server! 
+ """Elevate your betting and trading skills by joining our FREE and dynamic server! 🏦
  
  Access top-notch stock picks, expert options trading plays, reliable PrizePicks locks, and lucrative meme coin tips. 
  
@@ -117,7 +117,7 @@ Don't wait - join our vibrant community on Discord: TdEyQqwxp2.
  Make the leap to financial success today!
 """,
 """
-Hello everyone, 
+Hello everyone, 🏦🏦
 
 I wanted to offer a FREE and amazing server to discuss the topics betting, gambling, and becoming rich🤑🤑!
 
