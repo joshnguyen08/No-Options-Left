@@ -11,8 +11,8 @@ reddit = praw.Reddit(
     client_id=client_id,
     client_secret=client_secret,
     password=password,
-    user_agent="windows:com.example.myredditapp:v1.2.3 (by /u/SprinklesSimilar9530)",
-    username="SprinklesSimilar9530",
+    user_agent="windows:com.example.myredditapp:v1.2.3 (by /u/NoOptionsLeft0)",
+    username="NoOptionsLeft0",
 )
 
 
@@ -45,21 +45,21 @@ def post_to_subreddit(subreddit_name, title, body):
     except Exception as e:
         print(f"An error occured: {e} with {subreddit_name}")
 
-subreddits = ['BreakoutStocks' , 'squeeze_stocks' ,
-            'PrizePicksDemonTime' , 'PrizePicksPlays' , 'SportsBettingPicks',
+subreddits = [
+             'SportsBettingPicks',
             'TheBettingGuru' , 'FanduelBettingLocks'
             ,'OnlineCasinoGambling' , 'GamblingBros', 'sportsgambling', 'OptionsOnly', 
             'StonkTraders', 'SolanaMemeCoins', 'memecoinmoonshots',
-             'Memecoinhub' , 'investment' , 'CryptoIndia','gme_meltdown',
+             'Memecoinhub' , 'investment' ,'gme_meltdown',
             'StockMarketChat', 'forex_trades', 'ForexForALL', 
             '10xPennyStocks', 'TopPennyStocks', 'PennyStocksCanada', 'Pennystock', 'PennyStocksWatch',
             'MMAbetting', 'matchedbetting', 'cryptotrading', 'CryptoTradingFloor',
             'portfolios', 'AusFinance', 'ConcentrationOfWealth', 'WealthMindset', 'SolanaMemeCoins','AnyAdvertise','StonkTraders','StonkFeed','CryptoMarkets',
              'Buttcoin', 'btc','CryptoTechnology',
-           'SHIBArmy','CryptoApeing'   
-]
-#'SweepSlotsCasino', 'PRIZEPICKSBESTPICK','OnlineSlotCasinos','UltimateTraders',
-base_title = ["FREE PLACE TO WIN AND EAT!💸💸💸💸💸" , "🤑🤑Join Our Community for Expert Tips on Betting, Trading, and Crypto💸💰💰💸",
+           'SHIBArmy','CryptoApeing','SweepSlotsCasino', 'PRIZEPICKSBESTPICK','OnlineSlotCasinos','UltimateTraders','BreakoutStocks' , 'squeeze_stocks',
+           ]
+#'PrizePicksDemonTime' , 'PrizePicksPlays' ,
+base_title = ["FREE PLACE TO WIN AND EAT!💸💸💸" , "🤑🤑Join Our Community for Expert Tips on Betting, Trading, and Crypto💸💰💰💸",
               "🤑🤑Unlock the Secrets to Successful Trading and Betting with Us!💰💰💰", "🏦Your Hub for PrizePicks, Trading Strategies, and Crypto Insights🏦",
               "🏦Sports Betting, Trading, and Crypto: Join Our Free Discussion!🏦", "🏦Maximize Your Gains: From Options Trading to Meme Coins to Sports Betting🏦",
                "Discover Winning Strategies in Betting, Trading, and Crypto🏧🏧🏧", "Community Insights on PrizePicks, Options, and Crypto Trends📈📈📈", 
@@ -72,19 +72,23 @@ Join our FREE and amazing server to discuss betting, gambling, and becoming rich
 
 We offer top stock picks, the best options trading plays, PrizePicks locks, and a chance to hit big on meme coins. 
 
-Join us on Discord: TdEyQqwxp2. Everything is free - Join the community today!""",
+Join us on Discord: TdEyQqwxp2
+
+ Everything is free - Join the community today!""",
 
 """Discover the best tips for betting, trading, and growing your wealth in our FREE server! 🏦
 
 We provide top stock picks, options trading plays, PrizePicks locks, and meme coin advice. 
 
-Join our community on Discord: TdEyQqwxp2. Everything is free - Join now!""",
+Join our community on Discord: TdEyQqwxp2
+
+ Everything is free - Join now!""",
 
 """Unlock your potential and join our FREE server to master betting, trading, and wealth-building strategies!🏦
 
  Gain exclusive access to top stock picks, winning options plays, PrizePicks locks, and opportunities to hit big on meme coins. 
  
- Don't miss out - join us on Discord: TdEyQqwxp2. 
+ Don't miss out - join us on Discord: TdEyQqwxp2
  
  Everything is free - Take the first step to financial success today!""",
 
@@ -97,14 +101,14 @@ Discover the best betting tips, profitable trading strategies, and insights on P
 
 Elevate your game and connect with like-minded individuals. 
 
-Don't wait to join us now on Discord: TdEyQqwxp2 Start your journey to wealth today!""",
+Don't wait to join us now on Discord: TdEyQqwxp2 \nStart your journey to wealth today!""",
 
 """Seize the opportunity to grow your wealth with our FREE server! 🏦
 
 
 Get exclusive top stock picks, powerful options trading strategies, unbeatable PrizePicks locks, and the latest on meme coins. 
 
-Don't wait - join our vibrant community on Discord: TdEyQqwxp2.
+Don't wait - join our vibrant community on Discord: TdEyQqwxp2
 
  Your path to financial freedom starts here!""",
 
@@ -112,7 +116,7 @@ Don't wait - join our vibrant community on Discord: TdEyQqwxp2.
  
  Access top-notch stock picks, expert options trading plays, reliable PrizePicks locks, and lucrative meme coin tips. 
  
- Join the movement and connect with winners on Discord: TdEyQqwxp2.
+ Join the movement and connect with winners on Discord: TdEyQqwxp2
  
  Make the leap to financial success today!
 """,
@@ -140,11 +144,11 @@ Join here on dis(cord): TdEyQqwxp2
  ]
 
 for subreddit in subreddits:
-    print(f"client_id: {client_id}, client_secret: {client_secret}, password: {password}")
+
     varied_title = random.choice(base_title)
     varied_body = random.choice(base_body)
     post_to_subreddit(subreddit, varied_title, varied_body)
 
-    time.sleep(random.randint(25,50))
+    time.sleep(random.randint(45,70))
 
 print("All Posted")
